@@ -11,10 +11,13 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+# Hyatt access code 1/31: collopy1240a
+
 # capybara allows us to simulate user interaction with english like syntax
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 # Use SCSS for stylesheets
